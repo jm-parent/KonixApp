@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using KonixApp.Pages;
 using Xamarin.Forms;
 
 namespace KonixApp
@@ -13,7 +13,7 @@ namespace KonixApp
 		{
 			InitializeComponent();
 
-			MainPage = new KonixApp.MainPage();
+			MainPage = new MainMasterPage();
 		}
 
 		protected override void OnStart ()
